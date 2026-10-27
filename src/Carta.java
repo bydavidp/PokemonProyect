@@ -7,6 +7,11 @@ public abstract class Carta {
         this.tipo = tipo;
     }
 
+    public boolean esPokemon() {
+    return this instanceof Pokemon;
+}
+
     public String getNombre() { return nombre; }
     public String getTipo() { return tipo; }
+
 }
