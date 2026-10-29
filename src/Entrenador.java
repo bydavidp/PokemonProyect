@@ -9,6 +9,6 @@ public class Entrenador extends Carta implements Activable {
     @Override
     public void activarEfecto() {
         System.out.println("Activando efecto de " + nombre + ": " + efecto);
-        // La lógica exacta de robar cartas o curar PS se programará en la siguiente fase
+        
     }
 }
